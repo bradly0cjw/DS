@@ -10,3 +10,16 @@ while(True):
     except:
         print("inf")
     
+a=input()
+while True:
+    a=input()
+    if a==("INf"):
+        print(0)
+    elif float(a)==(0):
+        print("inf")
+    elif a==("nan"):
+        print("NaN")
+    else:
+        b=1/float(a)
+        print('{:.6E}'.format(b))
+
