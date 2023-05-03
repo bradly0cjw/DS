@@ -2,6 +2,7 @@ while 1:
     try:
         n=input()
         ln=len(n)
+        count=0
         for i in range(1,ln+1):
             if ln%i==0:
                 temp=[]
